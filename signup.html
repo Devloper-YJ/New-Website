@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/java.js"></script>
+</head>
+<body>
+  <section>
+     <div class="login-box" style="    width: 405px;
+    height: 615px;">
+        <form>
+            <h2>Sign Up</h2>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="person-circle"></ion-icon></span>
+                <input type="test" id="name" required>
+                <label class="la">Name</label>
+               
+             </div>
+             <div class="input-box">
+                <span class="icon"><ion-icon name="call"></ion-icon></span>
+                <input type="test" id="mob" required>
+                <label class="la">Mobile</label>
+               
+             </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" id="mail" required>
+                <label class="la">Email</label>
+             </div>
+             <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" id="password" required>
+                <label class="la">Password</label>
+               
+             </div>
+             <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="password" id="repassword" required>
+                <label class="la">Re-Password</label>
+               
+             </div>
+             <div class="register-link">
+                <p>Do  have an account? <a href="http://127.0.0.1:3000/login.html">Login Now</a></p>
+
+             </div>
+             
+             <input type="submit" class="button" name="Login" onclick="validate()"></input>
+             <div class="error">
+                <span name="error" id="erorr" class="erorr"></span>
+
+             </div>
+             
+
+            </form>
+
+        </div>
+  </section>
+   <!--js for icon "mail" and "lock" --> 
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

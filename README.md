@@ -1,5 +1,4 @@
 # New-Website
 Try something New And Exiting
 
-<img src="1765201964883.jpg
-  " height="100%" width="100%"></img>
+<img src="1765201964883.jpg" height="100%" width="100%"></img>
